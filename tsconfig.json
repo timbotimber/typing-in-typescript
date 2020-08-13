@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "lib": ["es6", "DOM"],
+    "target": "es6",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": false,
+    "strictFunctionTypes": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

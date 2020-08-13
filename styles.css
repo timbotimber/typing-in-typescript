@@ -1,0 +1,42 @@
+* {
+  margin: 10px;
+  background-color: #0c0c0c;
+  color: antiquewhite;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+#text {
+  display: inline-block;
+  vertical-align: middle;
+  background: -webkit-linear-gradient(#ede342, #ff51eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 2px;
+}
+
+#cursor {
+  display: inline-block;
+  vertical-align: middle;
+  width: 4px;
+  height: 150px;
+  background: #ede342;
+  animation: blink 0.75s step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    background-color: transparent;
+  }
+  50% {
+    background-color: #ede342;
+  }
+}
